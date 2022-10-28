@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  width:80%;
+  margin-inline:auto;
+  background-color: #313552;
+}
+
+ .nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding:10px;
+/*   margin-inline: auto;  */
+ }
+
+.img-logo{
+ height: 40px;
+ width: 40px;
+}
+
+.link-a{
+  margin-inline: 20px;
+}
+  
+div .links:hover{
+  color:#2eb086;
+}
+  
+  
+/*   padding: 20px; */
+
+
+
+
+.img-link{
+  display: flex;
+  align-items:center; 
+  
+}
+
+.links{
+  text-decoration:none;
+/*   color: black; */
+  margin: 10px;
+  color: white;
+}
+
+main{
+  margin:10% 5% 5%;
+}
+main .main-prg{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+/*   margin:20px; */
+} 
+
+main .left-main{
+  width: 35%;
+}
+
+main .right-main{
+  width: 45%;
+  margin: 10px 0%;
+}
+
+.about-me{
+  line-height:1.6;
+  color:white;
+}
+
+.right-main{
+  color:white;
+}
+
+main .right-main h1{
+ margin-top:8px; 
+}
+
+main .right-main p{
+  margin-top:8px;
+  margin-bottom:32px;
+}
+
+main .right-main a{
+ background-color:#2eb086;
+  color:white;
+  text-decoration: none;
+  padding:12px 28px;
+/*   background-color:white; */
+  border-radius:12px;
+  transition: 0.4s;
+}
+
+ main .right-main a:hover{
+  color:black;
+   background-color: white;
+  
+} 
+
+ .section-me{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+/*    margin-top: 3%; */
+/*    margin:5% */
+    margin:3% 5% 3%;
+   
+ }  
+
+
+#about-h3{
+  text-align:center;
+  color:white;
+}
+
+.about p{
+  line-height:1.6;
+  color:white;
+  width:60%;
+/*   margin:5%; */
+}
+
+.about img{
+  width:20%;
+}
+
+.projects{
+  color:white;
+}
+
+ .services-c{
+  color:white;
+  margin-bottom:20px;
+  margin-top:40px;
+} 
+
+section #services{
+  color:white;
+  
+}
+.projects{
+  text-align:center;
+}
+
+#project-heading{
+  margin-bottom:8px;
+}
+
+
+
+.project-images{
+/*    */
+  margin-top:24px;
+/*   padding-inline:20px;
+   */
+}
+
+.img-prg{
+  margin-left:8px;
+  margin-top:8px; 
+  border-radius:8px;
+}
+
+ .services-c{
+  text-align:center;
+  margin-top:48px;
+} 
+
+.services-c p{
+  margin-top:8px;
+} 
+
+
+.row{
+  display:flex;
+  margin:20px;
+  align-items:center;
+  justify-content:center;
+  
+}
+
+.box{
+  margin-left:24px;
+  margin-bottom:24px;
+}
+.box h4{
+  margin-top:16px;
+}
+
+footer {
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  text-align:center;
+  color:white;
+  
+}
